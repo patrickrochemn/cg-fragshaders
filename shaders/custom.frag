@@ -4,7 +4,7 @@ precision mediump float;
 
 in vec2 texcoord;
 
-uniform float width;
+uniform float width; // 1 pixel is 1/width or 1/height away
 uniform float height;
 uniform sampler2D image;
 
